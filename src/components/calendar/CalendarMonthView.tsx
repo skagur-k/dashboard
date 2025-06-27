@@ -108,7 +108,7 @@ export const CalendarMonthView = () => {
 								'border-r border-b border-border p-2 min-h-[120px] last:border-r-0',
 								!isSameMonth(date, monthStart) ? 'text-accent' : '',
 								isToday(date) ? 'text-primary' : '',
-								holiday && 'bg-red-50 border-red-200'
+								holiday && 'bg-accent/40'
 							)}
 						>
 							<div className="flex items-center justify-between mb-1">

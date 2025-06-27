@@ -8,9 +8,6 @@ export default function Home() {
 			<div className="p-4 rounded-lg lg:col-span-2 2xl:col-span-4">
 				<Calendar />
 			</div>
-			<div className="p-4 rounded-lg lg:col-span-2 2xl:col-span-1">
-				<AppBarChart />
-			</div>
 		</div>
 	)
 }
